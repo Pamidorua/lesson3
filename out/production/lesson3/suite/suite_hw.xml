@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Facebook test" parallel="tests">
+    <test name="Facebook test">
+        <classes>
+            <class name="lesson5.FacebookTest"/>
+            <!--            <class name="less5.FullAnnotationList"/>-->
+            <!--            <class name="less5.FullAnnotationList"/>-->
+        </classes>
+    </test>
+    <test name="HW test DataProv">
+        <classes>
+            <class name="lesson5.DataProvHW"/>
+            <!--            <class name="less5.DataProvTest"/>-->
+            <!--            <class name="less5.DataProvTest"/>-->
+        </classes>
+    </test>
+</suite>

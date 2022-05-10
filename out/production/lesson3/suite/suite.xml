@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke lesson 5 tests" parallel="tests">
+    <test name="Smoke test">
+        <classes>
+            <class name="lesson5.DataProvTest"/>
+            <!--            <class name="less5.FullAnnotationList"/>-->
+            <!--            <class name="less5.FullAnnotationList"/>-->
+        </classes>
+    </test>
+    <test name="Another smoke test">
+        <classes>
+            <class name="lesson5.FullAnotationList"/>
+            <!--            <class name="less5.DataProvTest"/>-->
+            <!--            <class name="less5.DataProvTest"/>-->
+        </classes>
+    </test>
+</suite>
