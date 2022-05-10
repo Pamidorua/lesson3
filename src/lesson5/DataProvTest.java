@@ -30,7 +30,7 @@ public class DataProvTest {
     public void test(String searchUrl) throws InterruptedException {
         driver.get(searchUrl);
         WebElement element = driver.findElement(By.xpath(".//*[@name='q']"));
-        element.sendKeys("Selenium");
+        element.sendKeys("git merge vs rebase");
         element.submit();
         Thread.sleep(3000);
         System.out.println("Page title is: " + driver.getTitle());
